@@ -18,6 +18,6 @@ The .py files are also provided, the *get_dataset.py* helps you obtain the neces
       * en_core_web_sm
 
 ### Data
-The txt files are automatically downloaded when the code is run using _gdown_. The dataset used for this exercise is called Recipe Dataset (over 2M) Food, adapted by Wilmer Arlt Strömberg, retrieved from kaggle.com (available in this [link](https://www.kaggle.com/datasets/wilmerarltstrmberg/recipe-dataset-over-2m}), which was originally created by the Poznań University of Technology (PUT) as RecipeNLG.
+The txt files are automatically downloaded when the code is run using _gdown_. The dataset used for this exercise is called Recipe Dataset (over 2M) Food, adapted by Wilmer Arlt Strömberg, retrieved from kaggle.com (available in this [link](https://www.kaggle.com/datasets/wilmerarltstrmberg/recipe-dataset-over-2m)), which was originally created by the Poznań University of Technology (PUT) as RecipeNLG.
 >[!NOTE]
 >If there is any problem with the download, please feel free to contact one of the authors.
