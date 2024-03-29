@@ -61,10 +61,9 @@ def is_vegetarian(ingredient):
 def is_vegan(ingredient):
     return all(i not in ingredient for i in non_vegan)
 
-# Get the total number of rows
+
 total_rows = len(df)
 
-# Apply the functions with tqdm progress bar
 tqdm.pandas(desc="Processing rows")
 df['Vegetarian'] = df['ingredients'].progress_apply(lambda x: all(is_vegetarian(ingredient) for ingredient in x.split(', ')))
 df['Vegan'] = df['ingredients'].progress_apply(lambda x: all(is_vegan(ingredient) for ingredient in x.split(', ')))
