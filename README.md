@@ -9,12 +9,12 @@ You can access the original Colab with this [link](https://colab.research.google
 The .py files are also provided, the *get_dataset.py* helps you obtain the necessary *recipes_data.csv*, create the data frame and perform the appropriate modifications for the program to work. This file should only need to be run once, unless the user wants to change the number of recipes used. The *main.py* file includes the main program. You can find the needed packages to run them below. 
 
 **Packages required:**
-   * gdown=='4.7.3'
+   * gdown==4.7.3
    * zipfile
-  * pandas=='1.5.3'
-   * re=='2.2.1'
-   * tdqm
-   * spacy=='3.7.4'
+  * pandas==1.5.3
+   * re==2.2.1
+   * tdqm==4.66.2
+   * spacy==3.7.4
       * en_core_web_sm
 
 ### Data
